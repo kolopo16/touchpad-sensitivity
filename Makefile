@@ -1,5 +1,5 @@
 .DEFAULT_GOAL := all
-UUID = touchpad-sensitivity@local
+UUID = touchpad-sensitivity@extensions.local
 CC ?= cc
 CFLAGS ?= -O2 -g
 WARNINGS = -Wall -Wextra -Werror

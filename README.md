@@ -1,6 +1,8 @@
 # Touchpad Scroll Sensitivity
 
 A GNOME Shell 50 extension and native backend, built together in this repository.
+Adjust touchpad scroll speed from the panel. Uses the native backend built from
+this project; requires a one-time user session setup.
 The panel slider adjusts finger-scroll sensitivity from 0.10× to 3.00× on both
 axes. Preferences persist across sessions, and disabling the extension restores
 normal scrolling. Includes its own native backend.
@@ -24,7 +26,7 @@ Run `./install.sh` as your desktop user, **without sudo**. Log out and back in,
 then enable the extension:
 
 ```sh
-gnome-extensions enable touchpad-sensitivity@local
+gnome-extensions enable touchpad-sensitivity@extensions.local
 ```
 
 ## Usage
@@ -33,7 +35,7 @@ Open the touchpad icon in the panel and try 0.50×. Its status should say
 “Scroll control active”. Preferences are also available with:
 
 ```sh
-gnome-extensions prefs touchpad-sensitivity@local
+gnome-extensions prefs touchpad-sensitivity@extensions.local
 ```
 
 The installer targets GNOME's `org.gnome.Shell@.service` systemd user service
@@ -43,7 +45,7 @@ interposer setup before using this one.
 
 ### Installed files
 
-- Extension: `~/.local/share/gnome-shell/extensions/touchpad-sensitivity@local/`
+- Extension: `~/.local/share/gnome-shell/extensions/touchpad-sensitivity@extensions.local/`
 - Library: `~/.local/share/touchpad-sensitivity/libtouchpad-sensitivity.so`
 - Service drop-in: `~/.config/systemd/user/org.gnome.Shell@.service.d/90-touchpad-sensitivity.conf`
 
