@@ -2,7 +2,7 @@
   "uuid": "touchpad-sensitivity@extensions.local",
   "name": "Touchpad Scroll Sensitivity",
   "description": "Adjust touchpad scroll speed from the panel. Uses the native backend built from this project; requires a one-time user session setup.",
-  "shell-version": ["50"],
+  "shell-version": ["50", "51"],
   "settings-schema": "org.gnome.shell.extensions.touchpad-sensitivity",
-  "version": 1
+  "version": 2
 }
