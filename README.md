@@ -1,13 +1,13 @@
 # Touchpad Scroll Sensitivity
 
-A GNOME Shell 50 extension and native backend, built together in this repository.
+A GNOME Shell 50/51 extension and native backend, built together in this repository.
 Adjust touchpad scroll speed from the panel. Uses the native backend built from
 this project; requires a one-time user session setup.
 The panel slider adjusts finger-scroll sensitivity from 0.10× to 3.00× on both
 axes. Preferences persist across sessions, and disabling the extension restores
 normal scrolling. Includes its own native backend.
 
-Tested by the author on Fedora 44, GNOME 50.5, Wayland. Other GNOME versions
+Tested by the author on Fedora 44, GNOME 50.5, Wayland; ported to and loaded on Fedora 45, GNOME 51.1. Other GNOME versions
 are not currently supported.
 
 ## Installation
